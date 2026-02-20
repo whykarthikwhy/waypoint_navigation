@@ -132,7 +132,7 @@ The robot first rotates in-place (`ALIGNING`) to avoid the controller issuing la
 ```bash
 # 1. Clone into your ROS2 workspace
 cd ~/ros2_ws/src
-git clone <repo-url> waypoint_navigation
+git clone https://github.com/whykarthikwhy/waypoint_navigation.git waypoint_navigation
 
 # 2. Install Python dependencies
 pip install scipy numpy
