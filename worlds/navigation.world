@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://sun</uri></include>
+
+    <model name="wp1">
+      <static>true</static><pose>2 1 0.001 0 0 0</pose>
+      <link name="l"><visual name="v"><geometry><cylinder><radius>0.2</radius><length>0.001</length></cylinder></geometry>
+      <material><ambient>1 0 0 1</ambient></material></visual></link>
+    </model>
+    <model name="wp2">
+      <static>true</static><pose>4 -1 0.001 0 0 0</pose>
+      <link name="l"><visual name="v"><geometry><cylinder><radius>0.2</radius><length>0.001</length></cylinder></geometry>
+      <material><ambient>1 0 0 1</ambient></material></visual></link>
+    </model>
+    <model name="wp3">
+      <static>true</static><pose>6 1 0.001 0 0 0</pose>
+      <link name="l"><visual name="v"><geometry><cylinder><radius>0.2</radius><length>0.001</length></cylinder></geometry>
+      <material><ambient>1 0 0 1</ambient></material></visual></link>
+    </model>
+    <model name="wp4">
+      <static>true</static><pose>8 0 0.001 0 0 0</pose>
+      <link name="l"><visual name="v"><geometry><cylinder><radius>0.2</radius><length>0.001</length></cylinder></geometry>
+      <material><ambient>1 0 0 1</ambient></material></visual></link>
+    </model>
+  </world>
+</sdf>
